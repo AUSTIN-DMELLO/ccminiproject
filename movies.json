@@ -1,0 +1,6 @@
+[
+    {"id": "1", "title": "The Avengers", "genre": "Action", "description": "Heroes unite to save the world from an alien invasion."},
+    {"id": "2", "title": "Superbad", "genre": "Comedy", "description": "High school friends have a wild night of fun and mishaps."},
+    {"id": "3", "title": "Inception", "genre": "Action", "description": "A thief enters dreams to steal secrets, facing thrilling challenges."},
+    {"id": "4", "title": "The Hangover", "genre": "Comedy", "description": "A bachelor party goes hilariously wrong in Las Vegas."}
+  ]
