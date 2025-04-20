@@ -20,13 +20,10 @@ async function getRecommendations() {
 }
 
 async function analyzeSentiment(movies) {
-    // Mock response (replace with actual Azure Cognitive Services call)
-    return movies.map(() => ({ sentiment: "positive" }));
-    /*
-    const response = await fetch("https://your-text-analytics-endpoint/text/analytics/v3.0/sentiment", {
+    const response = await fetch("https://ccminiproject.cognitiveservices.azure.com/text/analytics/v3.0/sentiment", {
         method: "POST",
         headers: {
-            "Ocp-Apim-Subscription-Key": "your_key",
+            "Ocp-Apim-Subscription-Key": "35fNVXMeyagmcL0tFj8PUVeGXrbsAEw8nmsYjafYbNQpsS2rLNiiJQQJ99BDACYeBjFXJ3w3AAAaACOGGdKv",
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
@@ -35,7 +32,6 @@ async function analyzeSentiment(movies) {
     });
     const data = await response.json();
     return data.documents;
-    */
 }
 
 async function savePreference(genre) {
